@@ -1,0 +1,49 @@
+.subscribe {
+    &-container {
+        background: #ffffff;
+        border-radius: 10px;
+        padding: 58px 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 30px 114px 0 rgba(#0d1025, 0.06);
+    }
+
+    &-content {
+        max-width: 370px;
+    }
+
+    &-button {
+        padding: 17px 65px;
+        border-radius: 12px;
+        text-decoration: none;
+        background-color: $primary-color;
+        color: white;
+        transition: 0.3s all linear;
+        font-weight: 600;
+        text-transform: capitalize;
+        max-width: 100%;
+
+        &:hover {
+            box-shadow: rgba(245, 56, 85, 0.2) 0px 29px 15px -10px;
+            transition: box-shadow 0.2s ease-in-out 0s
+        }
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .subscribe {
+        transform: translateY(50%);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .subscribe {
+        &-container {
+            flex-direction: column;
+            gap: 30px 0;
+            padding: 30px;
+        }
+    }
+}

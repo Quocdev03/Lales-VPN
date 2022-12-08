@@ -1,0 +1,26 @@
+.network {
+    &-boxed {
+        max-width: 555px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+        &-heading {
+            max-width: 380px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &-image {
+            margin-top: 155px;
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .network {
+        &-image {
+            margin-top: 50px;
+        }
+    }
+}
