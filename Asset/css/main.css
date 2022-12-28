@@ -1,3 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
 /*  Typography */
 h1,
 h2,
@@ -45,6 +91,7 @@ body {
   color: #4f5665;
   font-weight: 400;
   background-color: white;
+  scroll-behavior: smooth;
 }
 
 button {
@@ -115,52 +162,6 @@ button {
   border-radius: inherit;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-input,
-textarea,
-select,
-button {
-  outline: none;
-}
-
-input {
-  line-height: normal;
-}
-
-label,
-button {
-  cursor: pointer;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
 .header {
   padding-top: 50px;
   padding-bottom: 90px;
@@ -197,6 +198,7 @@ img {
 @media screen and (max-width: 1023px) {
   .header {
     padding: 25px 0 50px;
+    transition: all 0.2s linear;
   }
   .header-auth {
     display: none;
@@ -335,7 +337,11 @@ img {
 }
 
 @media screen and (min-width: 1280px) {
+  .hero {
+    transition: all 0.2s linear;
+  }
   .hero-image {
+    transition: all 0.2s linear;
     position: absolute;
     top: 50%;
     transform: translate(40px, -50%);
@@ -344,21 +350,29 @@ img {
 }
 @media screen and (max-width: 1023px) {
   .hero {
+    transition: all 0.2s linear;
     padding-bottom: 50px;
   }
   .hero-heading {
     font-size: 35px;
+    transition: all 0.2s linear;
   }
 }
 @media screen and (max-width: 767px) {
+  .hero {
+    transition: all 0.2s linear;
+  }
   .hero-container {
     flex-direction: column-reverse;
     gap: 50px 0;
+    transition: all 0.2s linear;
   }
   .hero-desc {
     margin-bottom: 25px;
+    transition: all 0.2s linear;
   }
   .hero-content p {
+    transition: all 0.2s linear;
     padding: 10px 0;
   }
 }
@@ -391,21 +405,28 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .intro {
+    transition: all 0.2s linear;
+  }
   .intro-item:nth-child(2) {
+    transition: all 0.2s linear;
     border-left: 2px solid #eeeff2;
     border-right: 2px solid #eeeff2;
   }
 }
 @media screen and (max-width: 767px) {
   .intro {
+    transition: all 0.2s linear;
     margin-bottom: 50px;
   }
   .intro-container {
+    transition: all 0.2s linear;
     grid-template-columns: 100%;
     padding: 30px;
     grid-gap: 50px 0;
   }
   .intro-item {
+    transition: all 0.2s linear;
     flex-direction: column;
     gap: 20px 0;
     text-align: center;
@@ -437,19 +458,23 @@ img {
 @media screen and (max-width: 1023px) {
   .feature {
     padding-bottom: 95px;
+    transition: all 0.2s linear;
   }
   .feature-container {
     gap: 0 30px;
     align-items: center;
+    transition: all 0.2s linear;
   }
 }
 @media screen and (max-width: 767px) {
   .feature {
     padding-bottom: 50px;
+    transition: all 0.2s linear;
   }
   .feature-container {
     flex-direction: column;
     gap: 50px 0;
+    transition: all 0.2s linear;
   }
 }
 .plan {
@@ -536,9 +561,11 @@ img {
 
 @media screen and (max-width: 1023px) {
   .plan {
+    transition: all 0.2s linear;
     padding: 50px 0;
   }
   .plan-item {
+    transition: all 0.2s linear;
     margin: 20px 4px;
   }
   .plan-list {
@@ -582,8 +609,12 @@ img {
 }
 
 @media screen and (max-width: 1023px) {
+  .network {
+    transition: all 0.2s linear;
+  }
   .network-image {
     margin-top: 50px;
+    transition: all 0.2s linear;
   }
 }
 .partner {
@@ -597,12 +628,17 @@ img {
 }
 
 @media screen and (max-width: 1023px) {
+  .partner {
+    transition: all 0.2s linear;
+  }
   .partner-container {
+    transition: all 0.2s linear;
     gap: 0 20px;
   }
 }
 @media screen and (max-width: 767px) {
   .partner {
+    transition: all 0.2s linear;
     margin-bottom: 30px;
   }
 }
@@ -711,7 +747,11 @@ img {
   .slick-dots {
     justify-content: center;
   }
+  .customer {
+    transition: all 0.2s linear;
+  }
   .customer-list {
+    transition: all 0.2s linear;
     padding-bottom: 50px;
   }
 }
@@ -751,10 +791,15 @@ img {
 @media screen and (min-width: 1024px) {
   .subscribe {
     transform: translateY(50%);
+    transition: all 0.2s linear;
   }
 }
 @media screen and (max-width: 767px) {
+  .subscribe {
+    transition: all 0.2s linear;
+  }
   .subscribe-container {
+    transition: all 0.2s linear;
     flex-direction: column;
     gap: 30px 0;
     padding: 30px;
@@ -802,9 +847,13 @@ img {
 }
 
 @media screen and (max-width: 767px) {
+  .footer {
+    transition: all 0.2s linear;
+  }
   .footer-container {
     grid-template-columns: 100%;
     grid-gap: 30px 0;
+    transition: all 0.2s linear;
   }
 }
 

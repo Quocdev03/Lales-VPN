@@ -11,7 +11,10 @@
 
 @media screen and (max-width: 1023px) {
     .partner {
+        transition: all 0.2s linear;
+
         &-container {
+            transition: all 0.2s linear;
             gap: 0 20px;
         }
     }
@@ -19,6 +22,7 @@
 
 @media screen and (max-width: 767px) {
     .partner {
+        transition: all 0.2s linear;
         margin-bottom: 30px;
     }
 }

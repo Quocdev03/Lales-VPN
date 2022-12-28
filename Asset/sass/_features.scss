@@ -28,10 +28,12 @@
 @media screen and (max-width: 1023px) {
     .feature {
         padding-bottom: 95px;
+        transition: all 0.2s linear;
 
         &-container {
             gap: 0 30px;
             align-items: center;
+            transition: all 0.2s linear;
         }
     }
 }
@@ -39,10 +41,12 @@
 @media screen and (max-width: 767px) {
     .feature {
         padding-bottom: 50px;
+        transition: all 0.2s linear;
 
         &-container {
             flex-direction: column;
             gap: 50px 0;
+            transition: all 0.2s linear;
         }
     }
 }

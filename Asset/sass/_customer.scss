@@ -130,7 +130,10 @@
     }
 
     .customer {
+        transition: all 0.2s linear;
+
         &-list {
+            transition: all 0.2s linear;
             padding-bottom: 50px;
         }
     }

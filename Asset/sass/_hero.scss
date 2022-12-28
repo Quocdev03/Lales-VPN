@@ -46,7 +46,10 @@
 
 @media screen and (min-width: 1280px) {
     .hero {
+        transition: all 0.2s linear;
+
         &-image {
+            transition: all 0.2s linear;
             position: absolute;
             top: 50%;
             transform: translate(40px, -50%);
@@ -57,27 +60,34 @@
 
 @media screen and (max-width: 1023px) {
     .hero {
+        transition: all 0.2s linear;
         padding-bottom: 50px;
 
         &-heading {
             font-size: 35px;
+            transition: all 0.2s linear;
         }
     }
 }
 
 @media screen and (max-width: 767px) {
     .hero {
+        transition: all 0.2s linear;
+
         &-container {
             flex-direction: column-reverse;
             gap: 50px 0;
+            transition: all 0.2s linear;
         }
 
         &-desc {
             margin-bottom: 25px;
+            transition: all 0.2s linear;
         }
 
         &-content {
             p {
+                transition: all 0.2s linear;
                 padding: 10px 0;
             }
         }

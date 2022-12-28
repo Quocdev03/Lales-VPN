@@ -32,7 +32,10 @@
 
 @media screen and (min-width: 768px) {
     .intro {
+        transition: all 0.2s linear;
+
         &-item:nth-child(2) {
+            transition: all 0.2s linear;
             border-left: 2px solid #eeeff2;
             border-right: 2px solid #eeeff2;
         }
@@ -41,15 +44,18 @@
 
 @media screen and (max-width: 767px) {
     .intro {
+        transition: all 0.2s linear;
         margin-bottom: 50px;
 
         &-container {
+            transition: all 0.2s linear;
             grid-template-columns: 100%;
             padding: 30px;
             grid-gap: 50px 0;
         }
 
         &-item {
+            transition: all 0.2s linear;
             flex-direction: column;
             gap: 20px 0;
             text-align: center;
