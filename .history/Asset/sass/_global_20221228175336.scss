@@ -99,14 +99,6 @@ button {
         font-weight: 700;
         background-color: $primary-color;
         color: white;
-
-    }
-
-    &--outline {
-        background-color: transparent;
-        color: $primary-color;
-        font-weight: 500;
-        border: 1px solid;
         transition: all 0.2s linear;
 
         &:hover {
@@ -114,6 +106,13 @@ button {
             color: rgb(255, 255, 255);
             box-shadow: rgba(245, 56, 85, 0.2) 0px 19px 15px -10px;
         }
+    }
+
+    &--outline {
+        background-color: transparent;
+        color: $primary-color;
+        font-weight: 500;
+        border: 1px solid;
     }
 
     &--rounded {

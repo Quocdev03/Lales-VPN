@@ -26,13 +26,6 @@
         color: $primary-color;
         border: 1px solid;
         font-weight: 500;
-        transition: all 0.2s linear;
-
-        &:hover {
-            background: $primary-color;
-            color: rgb(255, 255, 255);
-            box-shadow: rgba(245, 56, 85, 0.2) 0px 19px 15px -10px;
-        }
     }
 }
 
