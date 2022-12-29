@@ -26,21 +26,10 @@
         align-items: center;
         transition: border 0.2s ease-in-out 0s;
         transition: 0.3s all linear;
-        /* transition: border 0.2s ease-in-out 0s; */
-        transition: 0.3s all linear;
-    }
 
-    .plan-item:hover {
-        border: 2px solid $primary-color;
-        transition: 0.3s all linear;
-        transform: scale(1.010);
-
-        /* box-shadow: rgba(245, 56, 85, 0.2) 0px 19px 15px -10px;*/
         &:hover {
+            transition: 0.2s all linear;
             border: 2px solid $primary-color;
-            transition: 0.3s all linear;
-            transform: scale(1.010);
-            box-shadow: rgba(245, 56, 85, 0.2) 0px 19px 15px -10px;
             box-shadow: $primary-color-box-shadow 0px 5px 15px;
         }
     }

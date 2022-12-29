@@ -501,20 +501,10 @@ button {
   align-items: center;
   transition: border 0.2s ease-in-out 0s;
   transition: 0.3s all linear;
-  /* transition: border 0.2s ease-in-out 0s; */
-  transition: 0.3s all linear;
 }
-.plan .plan-item:hover {
+.plan-item:hover {
+  transition: 0.2s all linear;
   border: 2px solid #f53838;
-  transition: 0.3s all linear;
-  transform: scale(1.01);
-  /* box-shadow: rgba(245, 56, 85, 0.2) 0px 19px 15px -10px;*/
-}
-.plan .plan-item:hover:hover {
-  border: 2px solid #f53838;
-  transition: 0.3s all linear;
-  transform: scale(1.01);
-  box-shadow: rgba(245, 56, 85, 0.2) 0px 19px 15px -10px;
   box-shadow: rgba(245, 56, 85, 0.4) 0px 5px 15px;
 }
 .plan-image img {
