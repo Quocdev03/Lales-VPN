@@ -127,18 +127,18 @@ button {
 }
 .button--primary {
   font-weight: 700;
-  background-color: #f53955;
+  background-color: #f53838;
   color: white;
 }
 .button--outline {
   background-color: transparent;
-  color: #f53955;
+  color: #f53838;
   font-weight: 500;
   border: 1px solid;
   transition: all 0.2s linear;
 }
 .button--outline:hover {
-  background: #f53955;
+  background: #f53838;
   color: rgb(255, 255, 255);
   box-shadow: rgba(245, 56, 85, 0.2) 0px 19px 15px -10px;
 }
@@ -184,13 +184,13 @@ button {
 .header-signup {
   padding: 13px 45px;
   border-radius: 100rem;
-  color: #f53955;
+  color: #f53838;
   border: 1px solid;
   font-weight: 500;
   transition: all 0.2s linear;
 }
 .header-signup:hover {
-  background: #f53955;
+  background: #f53838;
   color: rgb(255, 255, 255);
   box-shadow: rgba(245, 56, 85, 0.2) 0px 19px 15px -10px;
 }
@@ -240,11 +240,11 @@ button {
     right: 0;
     width: 0;
     height: 3px;
-    background-color: #f53955;
+    background-color: #f53838;
     transition: all 0.2s linear;
   }
   .menu-link:hover {
-    color: #f53955;
+    color: #f53838;
   }
   .menu-link:hover:after {
     width: 100%;
@@ -324,7 +324,7 @@ button {
   padding: 17px 77px;
   border-radius: 12px;
   text-decoration: none;
-  background-color: #f53955;
+  background-color: #f53838;
   color: white;
   transition: all 0.2s ease-in-out 0s;
   font-weight: 600;
@@ -505,13 +505,13 @@ button {
   transition: 0.3s all linear;
 }
 .plan .plan-item:hover {
-  border: 2px solid #f53955;
+  border: 2px solid #f53838;
   transition: 0.3s all linear;
   transform: scale(1.01);
   /* box-shadow: rgba(245, 56, 85, 0.2) 0px 19px 15px -10px;*/
 }
 .plan .plan-item:hover:hover {
-  border: 2px solid #f53955;
+  border: 2px solid #f53838;
   transition: 0.3s all linear;
   transform: scale(1.01);
   box-shadow: rgba(245, 56, 85, 0.2) 0px 19px 15px -10px;
@@ -546,15 +546,15 @@ button {
   padding: 15px 50px;
   border-radius: 40px;
   text-decoration: none;
-  border: 1px solid #f53955;
-  color: #f53955;
+  border: 1px solid #f53838;
+  color: #f53838;
   transition: 0.3s all linear;
   font-weight: 600;
   text-transform: capitalize;
   max-width: 100%;
 }
 .plan-button:hover {
-  background: #f53955;
+  background: #f53838;
   color: rgb(255, 255, 255);
   box-shadow: rgba(245, 56, 85, 0.3) 0px 19px 15px -10px;
 }
@@ -696,7 +696,7 @@ button {
 }
 
 .customer-item.slick-current.slick-active {
-  border-color: #f53955;
+  border-color: #f53838;
 }
 
 .slick-arrow {
@@ -712,12 +712,12 @@ button {
   z-index: 10;
 }
 .slick-prev {
-  border: 1px solid #f53955;
+  border: 1px solid #f53838;
   background-color: transparent;
   right: 80px;
 }
 .slick-next {
-  background-color: #f53955;
+  background-color: #f53838;
   right: 0;
 }
 .slick-dots {
@@ -736,7 +736,7 @@ button {
   transition: all 0.2s linear;
 }
 .slick-active button {
-  background-color: #f53955;
+  background-color: #f53838;
   width: 40px;
 }
 
@@ -776,7 +776,7 @@ button {
   padding: 17px 65px;
   border-radius: 12px;
   text-decoration: none;
-  background-color: #f53955;
+  background-color: #f53838;
   color: white;
   transition: 0.3s all linear;
   font-weight: 600;
@@ -836,7 +836,7 @@ button {
   margin-bottom: 10px;
 }
 .footer-item:hover .footer-link {
-  color: #f53955;
+  color: #f53838;
 }
 .footer-social {
   display: flex;
